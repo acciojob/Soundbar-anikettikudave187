@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #a259d1; /* purple background like screenshot */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+#buttons{
+	display:flex;
+	gap:20px;
+	flex-wrap:wrap;
+	justify-content:center;
+	
+}
+.btn, .stop{
+	background-color: #5e2b97;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background 0.3s ease;
+  text-transform: lowercase;
+}
+.btn:hover, .stop:hover{
+	background-color:#2980b9;
+}
+.stop{
+	background-color:#4b2182;
+}
